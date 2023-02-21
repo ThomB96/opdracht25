@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, intial-scale=1" />
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!--bootstrap css-->
+        <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <link rel="stylesheet" href="css/main.css">
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $("#verberg").click(function(){
+                $("p").hide();
+            });
+            $("#toon").click(function() {
+                $("p").show();
+            });
+        });
+    </script>
+        </head>
+    <body>
+        <header style="min-height: 100px;">
+            <!--top page ID-->
+            <div id="top_page"></div>
+            <!--Navbar-->
+            <nav class="navbar-expand-lg navbar-light bg-white fixed-top">
+                <div class="container-fluid">
+                    <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarExample01"
+                    aria-controls="navbarExample01"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarExample01">
+                    <ul class="navbar-nav me-auto mb2 mb-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#top_page" aria-current="page">Back to top</a>
+                        </li>
+
+                    </ul>
+                </div>
+                </div>
+            </nav>
+            <!--end of navbar-->
+        </header>
+        <div class="container-fluid bg-primary">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h1>Welkom op mijn pagina</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 justify-content-start text-center">
+                    <div id="container1">
+                        <div>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat est quis risus ullamcorper, nec porttitor arcu vestibulum. Vivamus at sagittis nisl. Nulla sed eleifend dui, non tincidunt arcu. Vivamus lacinia a libero in egestas. Morbi vitae consectetur nulla. Duis et tellus vitae augue viverra convallis. Sed eu lectus urna. Integer eget massa sit amet massa rhoncus mattis sit amet quis dui. Quisque sagittis elit lorem, ut eleifend augue consectetur id.
+
+                    Pellentesque quis venenatis augue. Sed ut nibh convallis, lobortis sapien nec, tristique elit. Donec scelerisque lorem vel lacus fermentum pellentesque. Ut ac commodo enim. In auctor, elit non scelerisque vulputate, quam velit sagittis est, quis tincidunt tortor lorem eget dui. Nunc eleifend, diam quis lobortis tristique, lorem metus vulputate lorem, in rhoncus leo odio eu eros. Mauris non risus rhoncus, vestibulum libero congue, ultricies nisl.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sagittis ut mauris eget cursus. Nam ornare non tellus sit amet rutrum. Vestibulum interdum volutpat diam eu aliquam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Suspendisse sit amet consequat magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eu posuere justo. In auctor eros risus, eu hendrerit tellus viverra a. Nullam et consequat nulla, eu scelerisque est. Nunc vehicula egestas magna, sed suscipit lorem suscipit eu. Vestibulum augue purus, sagittis at dignissim eu, pulvinar eget magna. Maecenas non felis ac neque consequat viverra venenatis eu nisi. Fusce non ornare magna. Nullam imperdiet molestie porta. Nullam non mi ante.
+                    </p>
+                        </div>
+
+                    <!--eerste button, javascript-->
+                    <button class="btn-default" id="toon">
+                        Show
+                    </button>
+                    <button class="btn-default" id="verberg">Hide</button>
+                </div>
+                </div>
+                <div class="col-sm-6 justify-content-end text-center">
+                    <div id="container2">
+                        <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sagittis ut mauris eget cursus. Nam ornare non tellus sit amet rutrum. Vestibulum interdum volutpat diam eu aliquam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Suspendisse sit amet consequat magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eu posuere justo. In auctor eros risus, eu hendrerit tellus viverra a. Nullam et consequat nulla, eu scelerisque est. Nunc vehicula egestas magna, sed suscipit lorem suscipit eu. Vestibulum augue purus, sagittis at dignissim eu, pulvinar eget magna. Maecenas non felis ac neque consequat viverra venenatis eu nisi. Fusce non ornare magna. Nullam imperdiet molestie porta. Nullam non mi ante.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sagittis ut mauris eget cursus. Nam ornare non tellus sit amet rutrum. Vestibulum interdum volutpat diam eu aliquam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Suspendisse sit amet consequat magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eu posuere justo. In auctor eros risus, eu hendrerit tellus viverra a. Nullam et consequat nulla, eu scelerisque est. Nunc vehicula egestas magna, sed suscipit lorem suscipit eu. Vestibulum augue purus, sagittis at dignissim eu, pulvinar eget magna. Maecenas non felis ac neque consequat viverra venenatis eu nisi. Fusce non ornare magna. Nullam imperdiet molestie porta. Nullam non mi ante.
+                    <br>
+                </p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 justify-content-start text-center">
+                    <div id="container3">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sagittis ut mauris eget cursus. Nam ornare non tellus sit amet rutrum. Vestibulum interdum volutpat diam eu aliquam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Suspendisse sit amet consequat magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eu posuere justo. In auctor eros risus, eu hendrerit tellus viverra a. Nullam et consequat nulla, eu scelerisque est. Nunc vehicula egestas magna, sed suscipit lorem suscipit eu. Vestibulum augue purus, sagittis at dignissim eu, pulvinar eget magna. Maecenas non felis ac neque consequat viverra venenatis eu nisi. Fusce non ornare magna. Nullam imperdiet molestie porta. Nullam non mi ante.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sagittis ut mauris eget cursus. Nam ornare non tellus sit amet rutrum. Vestibulum interdum volutpat diam eu aliquam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Suspendisse sit amet consequat magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eu posuere justo. In auctor eros risus, eu hendrerit tellus viverra a. Nullam et consequat nulla, eu scelerisque est. Nunc vehicula egestas magna, sed suscipit lorem suscipit eu. Vestibulum augue purus, sagittis at dignissim eu, pulvinar eget magna. Maecenas non felis ac neque consequat viverra venenatis eu nisi. Fusce non ornare magna. Nullam imperdiet molestie porta. Nullam non mi ante.
+                        <br>
+                    </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 justify-content-end text-center">
+                    <div id="container4">
+                        <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sagittis ut mauris eget cursus. Nam ornare non tellus sit amet rutrum. Vestibulum interdum volutpat diam eu aliquam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Suspendisse sit amet consequat magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eu posuere justo. In auctor eros risus, eu hendrerit tellus viverra a. Nullam et consequat nulla, eu scelerisque est. Nunc vehicula egestas magna, sed suscipit lorem suscipit eu. Vestibulum augue purus, sagittis at dignissim eu, pulvinar eget magna. Maecenas non felis ac neque consequat viverra venenatis eu nisi. Fusce non ornare magna. Nullam imperdiet molestie porta. Nullam non mi ante.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sagittis ut mauris eget cursus. Nam ornare non tellus sit amet rutrum. Vestibulum interdum volutpat diam eu aliquam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Suspendisse sit amet consequat magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eu posuere justo. In auctor eros risus, eu hendrerit tellus viverra a. Nullam et consequat nulla, eu scelerisque est. Nunc vehicula egestas magna, sed suscipit lorem suscipit eu. Vestibulum augue purus, sagittis at dignissim eu, pulvinar eget magna. Maecenas non felis ac neque consequat viverra venenatis eu nisi. Fusce non ornare magna. Nullam imperdiet molestie porta. Nullam non mi ante. <br>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!--custom JS scripts-->
+        <script src="js/scripts.js"></script>
+        <!--needed Js scripts-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
